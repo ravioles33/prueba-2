@@ -6,5 +6,5 @@ class Product(models.Model):
     description = models.CharField(max_length=255,)
     type = models.CharField(max_length=255,)
     price = models.IntegerField()
-    in_promotion = models.CharField(max_length=255,)
+    in_promotion = models.BooleanField()
     highlighted = models.BooleanField()
