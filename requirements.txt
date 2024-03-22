@@ -1,4 +1,6 @@
-Django~=5.0.3
-djangorestframework
-markdown       # Markdown support for the browsable API.
-django-filter  # Filtering support
+asgiref==3.7.2
+Django==5.0.3
+django-filter==24.1
+djangorestframework==3.15.0
+Markdown==3.6
+sqlparse==0.4.4
